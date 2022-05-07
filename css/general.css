@@ -1,0 +1,353 @@
+/* 
+
+--- 01 TYPOGRAPHY SYSTEM
+
+- FONT SYSTEM
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights: 
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+
+- Line heights: 
+Default: 1
+Small: 1.05
+Paragraph default: 1.6
+
+
+--- 02 Colors
+
+- Primary : #e67e22
+- Tints: fdf2e9
+- Shades: #45260a
+- Accent:
+- Greys: #555, #333, #6f6f6f- lightest gray allowed on tint color, 
+#888
+#ddd
+#767676 lightest grey
+
+
+--- 05 Shadows
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
+
+
+--- 06 BORDER-RADIUS
+Default: 10px
+11px
+
+--- 07 WHITESPACE
+
+-- 08 LETTER SPACING
+Default: 1
+Small: 1.05
+Medium: 1.2
+Large: 1.5
+
+- SPACING SYSTEM
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 10px; */
+    /* 10px / 16px = 0.625= 62.5 */
+    /* Percentage of users browser font-size setting */
+    font-size: 62.5%;
+
+    /* DOES NOT WORK IN SAFARI OR EDGE */
+    /* scroll-behavior: smooth; */
+}
+
+:root {
+    /* Colors */
+    --primary-clr: #e67e22;
+    --accent-orange: #cf711f;
+    --btnHover-clr: #b8651b;
+
+    --primary-grey: #555;
+    --accent-grey: #333;
+    --accent-grey500: #888;
+    --accentLight-grey100: #ddd;
+    --accentLight-grey200: #767676;
+
+    --tint-clr: #fdf2e9;
+    --tint-clr2: #fae5d3;
+
+    /* Fonts */
+    --font-rubik: 'Rubik', sans-serif;
+}
+
+body {
+    font-family: var(--font-rubik);
+    line-height: 1;
+    font-weight: 400;
+    color: var(--primary-grey);
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/******************************/
+    /* Reusable Components */
+/******************************/
+
+.margin-right-sm {
+    margin-right: 1.6rem !important;
+}
+
+.margin--bottom-md {
+    margin-bottom: 4.8rem !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(230, 126, 34, 0.5);
+}
+
+/* List */
+.list {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+
+.list-icon {
+    font-size: 3rem;
+    color: var(--primary-clr);
+}
+
+.list-item {
+    font-size: 1.8rem;
+    
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    line-height: 1.2;
+}
+
+.grid {
+    display: grid;
+    row-gap: 9.6rem;
+    column-gap: 6.4rem;
+}
+
+.grid:not(:last-child) {
+    margin-bottom: 9.6rem;
+}
+
+.grid--center-v {
+    align-items: center;
+}
+
+.grid--2-col {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-col {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-col {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-col {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+/* ------ HEADINGS ------ */
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+    color: var(--accent-grey);
+    letter-spacing: -0.5px;
+    line-height: 1.05;
+}
+
+.heading-primary {
+    font-size: 5.2rem;
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+    font-size: 4.4rem;
+    line-height: 1.2;
+
+    margin-bottom: 9.6rem; 
+}
+
+.subheading {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--btnHover-clr);
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    letter-spacing: 1px;
+}
+
+.heading-tertiary {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 3.2rem;
+}
+
+
+/******************************/
+/* ------ BUTTONS ------ */
+/******************************/
+.btn,
+.btn:link, 
+.btn:visited {
+    display: inline-block;
+
+
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--accent-grey);
+    padding: 1.6rem 3.2rem;
+    border-radius: 9px;
+    text-decoration: none;
+
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+
+    transition: all 0.3s linear;
+}
+
+.btn--fill:link,
+.btn--fill:visited {
+    background-color: var(--primary-clr);
+}
+
+.btn--fill:hover,
+.btn--fill:active{
+    background-color: var(--btnHover-clr);
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+    background-color: #fff;
+    color: var(--accent-grey);
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+    box-shadow: inset 0 0 0 3px var(--primary-clr);
+    color: var(--primary-clr);
+}
+
+.btn--form {
+    background-color: #45260a;
+    color: var(--tint-clr) !important;
+    align-self: flex-end;
+    padding: 1.2rem 3.2rem !important;
+}
+
+.btn--form:hover {
+    background-color: #fff;
+    color: var(--accent-grey) !important;
+}
+
+.meals-link:link,
+.meals-link:visited {
+    display: inline-block;
+    color: var(--primary-clr);
+    padding-bottom: 0.2rem;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    transition: all 0.3s linear;
+}
+
+.meals-link:hover,
+.meals-link:active {
+    color: var(--btnHover-clr);
+    border-bottom: 1px solid transparent;
+}
+
+
+/******************************/
+/* ------ HEADER ------ */
+/******************************/
+.masthead {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--tint-clr);
+
+    /* for sticky navigation later */
+    height: 9.6rem;
+    padding: 0 4.8rem;
+}
+
+.logo {
+    height: 2.2rem;
+}
+
+
+/* Primary Navigation */
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 4.8rem;
+    align-items: center;
+}
+
+/* Hide navigation */
+.nav-link:link,
+.nav-link:visited {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--primary-grey);
+    transition: all 0.3s linear;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: var(--btnHover-clr);
+}
+
+.nav-link.nav-cta:link,
+.nav-link.nav-cta:visited {
+    padding: 1.2rem 2.4rem;
+    border-radius: 10px;
+    color: #fff;
+    background-color: var(--primary-clr);
+}
+
+.nav-link.nav-cta:hover,
+.nav-link.nav-cta:hover {
+    background-color: var(--btnHover-clr);
+}
