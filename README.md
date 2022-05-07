@@ -1,4 +1,3 @@
-# Omnifood-Website
 [![omnifood logo](/img/omnifood-logo.png)](#)
 
 *   [How it works](#how-it-works)
@@ -14,16 +13,14 @@ The smart 365-days-per-year food subscription that will make you eat healthy aga
 
 [Start eating healthy](#pricing) [Learn more ↓](#how-it-works)
 
-   ![image of customer](/img/customers/customer-1.jpg)  ![image of customer](/img/customers/customer-2.jpg)   ![image of customer](/img/customers/customer-3.jpg)   ![image of customer](/img/customers/customer-4.jpg)   ![image of customer](/img/customers/customer-5.jpg)   ![image of customer](/img/customers/customer-6.jpg)
 
 250,000+ meals delivered last year!
 
-  ![Image collage of two Omnifood menu items one in a containe rand the other bowls on a table, and a image of a women enjoying one of omnifood meals ](/img/hero.png)
 
 As featured in
 --------------
 
-   ![techcrunch logo](/img/logos/techcrunch.png)  ![business insider logo](/img/logos/business-insider.png)   ![The newyork times logo](/img/logos/the-new-york-times.png)   ![forbes logo](/img/logos/forbes.png)   ![The usa today logo](/img/logos/usa-today.png)
+tech icons
 
 How it works
 
@@ -35,10 +32,6 @@ Your daily dose of health in 3 simple steps
 ### Tell us what you like (and what not):
 
 Never again waste time thinking about what to eat! Omnifood AI will create a 100% personalized weekly meal plan just for you. It makes sure you get all the nutrients and vitamins you need, no matter what diet you follow!
-
-![iPhone app preferences selection screen](/img/app/app-screen-1.png)
-
-![iPhone app preferences selection screen](/img/app/app-screen-2.png)
 
 02
 
@@ -52,14 +45,10 @@ Once per week, approve the meal plan generated for you by Omnifood AI. You can c
 
 Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily!
 
-![iPhone app preferences selection screen](/img/app/app-screen-3.png)
-
 Meals
 
 Omnifood AI chooses from 5,000+ recipes
 ---------------------------------------
-
-  ![Japanese Gyozas ](img/meals/meal-1.jpg)
 
 Vegetarian
 
@@ -68,8 +57,6 @@ Japanese Gyozas
 *   **650** calories
 *   NutriScore ® **74**
 *   **4.9** rating (537)
-
-  ![Avocado Salad ](img/meals/meal-2.jpg)
 
 Vegan Paleo
 
@@ -122,49 +109,7 @@ Once you try it, you can't go back
 
 — Hannah Smith
 
- ![photo of beautifully arranged food](/img/gallery/gallery-1.jpg) 
-
-![photo of beautifully arranged food](/img/gallery/gallery-2.jpg)
-
  
-
-![photo of beautifully arranged food](/img/gallery/gallery-3.jpg)
-
- 
-
-![photo of beautifully arranged food](./img/gallery/gallery-4.jpg)
-
- 
-
-![photo of beautifully arranged food](./img/gallery/gallery-5.jpg)
-
- 
-
-![photo of beautifully arranged food](/img/gallery/gallery-6.jpg)
-
- 
-
-![photo of beautifully arranged food](/img/gallery/gallery-7.jpg)
-
- 
-
-![photo of beautifully arranged food](/img/gallery/gallery-8.jpg)
-
- 
-
-![photo of beautifully arranged food](/img/gallery/gallery-9.jpg)
-
- 
-
-![photo of beautifully arranged food](/img/gallery/gallery-10.jpg)
-
- 
-
-![photo of beautifully arranged food](/img/gallery/gallery-11.jpg)
-
- 
-
-![photo of beautifully arranged food](/img/gallery/gallery-12.jpg)
 
 Pricing
 
